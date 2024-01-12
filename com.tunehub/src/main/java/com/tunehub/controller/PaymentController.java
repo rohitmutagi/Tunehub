@@ -1,4 +1,5 @@
-package com.tunehub.controller;
+package com.example.demo.controller;
+
 
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,11 +8,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.example.demo.entities.Users;
+import com.example.demo.services.UsersService;
 import com.razorpay.Order;
 import com.razorpay.RazorpayClient;
 import com.razorpay.RazorpayException;
-import com.tunehub.entities.Users;
-import com.tunehub.services.UsersService;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -33,7 +34,7 @@ public class PaymentController {
 		int  amount  = 5000;
 		Order order=null;
 		try {
-			RazorpayClient razorpay=new RazorpayClient("rzp_test_cqyFQhsuxDX4Df", "8pMBamFrPa4nPoqkybHH13wj");
+			RazorpayClient razorpay=new RazorpayClient("rzp_test_pvGIc9JvXWZTVS", "UlnLCUb8lRxvBKRyIYRYWrEO");
 
 			JSONObject orderRequest = new JSONObject();
 			orderRequest.put("amount", amount*100); // amount in the smallest currency unit
