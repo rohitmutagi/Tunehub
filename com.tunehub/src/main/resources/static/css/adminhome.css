@@ -1,0 +1,41 @@
+body {
+ font-family: 'Arial', sans-serif;
+ margin: 10px;
+ padding: auto;
+ background-color: rgba(57, 144, 130, 0.8);
+ color: black;
+ text-align:center;
+ background-size:cover;
+}
+
+h1 {
+background-color:white;
+color:black;
+padding:10px;
+text-align:center;
+}
+
+a {
+ text-decoration: none;
+ color: #007bff;
+ font-weight: bold;
+ transition: color 0.3s ease;
+ display: block;
+ margin-bottom: 10px;
+}
+
+a:hover {
+ color: #0056b3;
+}
+.no{
+		
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+   	text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+	
+}
+

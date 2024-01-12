@@ -1,0 +1,38 @@
+body {
+	margin:0;
+	padding:0;
+    font-family: Arial, sans-serif;
+    background-image:url("https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?w=2000&t=st=1704956360~exp=1704956960~hmac=e614a77e45e2e4a727d2c1b942114da983eb9d27092110cb022d5f1c94282c23");
+	background-size:cover;
+    
+}
+
+
+.header {
+    
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.buttons {
+    text-align: center;
+    padding: 300px;
+    margin:auto;
+}
+
+.btn {
+	
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+   	text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
